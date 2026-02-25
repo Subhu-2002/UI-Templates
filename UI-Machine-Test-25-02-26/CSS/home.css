@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.blackWhiteBtn{
+    border: none;
+    background-color: black;
+    padding: 12px 38px;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+/* Navbar Section */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.navbar .compname{
+    background-color: rgb(223, 246, 255);
+    padding: 8px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .menu{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.menu .loginBtn{
+    border: none;
+    background-color: transparent;
+}
+
+.menu .freeTierBtn{
+    background-color: rgb(255, 154, 170);
+    border: none;
+    padding: 8px 24px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.menu .toggle-icon{
+    height: 100%;
+    width: 52px;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+.toggle-icon hr{
+    width: 50%;
+    height: 3px;
+    border-radius: 2px;
+    background-color: white;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+
+/* Banner Section */
+.bannerSection{
+    width: 100%;
+    background-color: white;
+}
+.bannerSection .container{
+    margin-right: 0px;
+    width: 90%;
+    background-color: rgb(255, 154, 170);
+}
+
+.bannerSection .intro{
+    display: flex;
+    gap: 32px;
+    flex-basis: 65%;
+    padding: 72px 0;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro h1{
+    font-size: 64px;
+    max-width: 440px;
+    line-height: 70px;
+    font-weight: 600;
+}
+.intro p{
+    font-size: 18px;
+}
+.intro-img{
+    object-fit: cover;
+    width: 100%;
+}
+.intro-img img{
+    width: 100%;
+}
+
+
+
+
+/* Experience Section */
+.experienceSection{
+    background-color: rgb(223, 246, 255);
+    padding: 52px 0;
+}
+.experienceSection .container{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.experienceSection h1{
+    font-size: 52px;
+    font-weight: 600;
+    color: rgb(78, 78, 78);
+}
+.experienceSection p{
+    font-size: 18px;
+    color: rgb(105, 105, 105);
+}
+
+.experienceCardSection{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 24px 0;
+    align-items: center;
+}
+.experienceCardSection .card{
+    flex-basis: 24%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+.card .cardImg{
+    width: 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./../images/image.png);
+    height: 260px;
+}
+.card h3{
+    text-align: center;
+    font-weight: 600;
+}
+.card p{
+    text-align: center;
+}
+
+
+
+/* Online Classes Section */
+.onlineSection .container{
+    width: 90%;
+    margin-left: 0;
+    justify-content: space-between;
+}
+.onlineSection .bookSection{
+    padding: 58px 0;
+    display: flex;
+    justify-content: center;
+    margin-right: 72px;
+    flex-direction: column;
+    margin-bottom: 48px;
+    gap: 20px;
+}
+.onlineSection .imgSection{
+    background-color: #ef9c8a;
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.onlineSection h1{
+    font-size: 52px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: rgb(78, 78, 78);
+    line-height: 54px;
+}
+.bookSection .tagline{
+    font-size: 20px;
+    color: rgb(105, 105, 105);
+}
+.bookSection p{
+    color: rgb(105, 105, 105);
+    font-size: 18px;
+}
+.bookNowBtnDiv{
+    margin-top: 12px;
+}
+
+
+/* Plans Section */
+.plansSection{
+    
+}
+.plansSection .container{
+    width: 90%;
+    margin-right: 0;
+    justify-content: space-between;
+}
+.plansSection .bookSection{
+    padding: 98px 0;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.plansSection h1{
+    font-size: 52px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: rgb(78, 78, 78);
+    line-height: 54px;
+}
+.plansSection .tagline{
+    font-size: 20px;
+    color: rgb(105, 105, 105);
+}
+.plansSection p{
+    color: rgb(105, 105, 105);
+    font-size: 18px;
+}
+
+.plansSection .imgSection{
+    background-color: rgb(206, 219, 224);
+    flex-basis: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    transform: translateY(-48px);
+    -webkit-transform: translateY(-48px);
+    -moz-transform: translateY(-48px);
+    -ms-transform: translateY(-48px);
+    -o-transform: translateY(-48px);
+}
+
+.imgSection .planCard{
+    padding: 40px 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 8px;
+    flex-basis: 20%;
+    background-color: rgb(71, 70, 70);
+}
+hr{
+    width: 100%;
+}
+.planCard h2{
+    font-weight: normal;
+    font-size: 20px;
+}
+.planCard p{
+    color: white;
+    font-size: 14px;
+}
+.planCard .planPrice{
+    display: flex;
+    gap: 3px;
+    padding: 28px 0;
+}
+.planPrice h1, sup{
+    color: rgb(245, 178, 54);
+    font-weight: bolder;
+}
+.planPrice sup{
+    font-size: 18px;
+    font-weight: 500;
+}
+.planCard button{
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    background-color: transparent;
+    padding: 10px 32px;
+    font-size: 18px;
+    margin-top: 8px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
